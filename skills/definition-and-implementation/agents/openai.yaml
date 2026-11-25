@@ -1,0 +1,4 @@
+interface:
+  display_name: "Definição e implementação"
+  short_description: "Definição interativa e implementação autônoma"
+  default_prompt: "Use $definition-and-implementation para colaborar na definição e executar com autonomia conforme o contexto."

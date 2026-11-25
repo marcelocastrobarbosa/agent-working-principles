@@ -1,0 +1,4 @@
+interface:
+  display_name: "Direção de design de interfaces"
+  short_description: "Coerência de interfaces e estabilidade visual"
+  default_prompt: "Use $interface-design-direction para orientar esta interface e seus estados de carregamento."
