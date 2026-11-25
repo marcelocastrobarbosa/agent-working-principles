@@ -7,6 +7,8 @@ Skills curtas para colaborar com agentes de IA na definição e implementação 
 - [Definição e implementação](skills/definition-and-implementation/SKILL.md): ciclos rápidos de definição com a pessoa responsável e execução autônoma quando a direção estiver suficientemente clara e autorizada.
 - [Direção de design de interfaces](skills/interface-design-direction/SKILL.md): coerência entre telas, reutilização de estruturas comuns e estabilidade visual durante o carregamento.
 
+Este repositório é **público**. Tenha cuidado com o conteúdo e as mensagens dos commits; compartilhe apenas material genérico, sem informações privadas.
+
 ## Uso
 
 Cada diretório em `skills/` contém uma skill completa. Instale os diretórios desejados no local de skills reconhecido pelo seu agente, preservando o `SKILL.md` e seus arquivos de apoio. Os arquivos `agents/openai.yaml` fornecem metadados opcionais para Codex; os princípios estão nos arquivos Markdown.
@@ -20,3 +22,11 @@ As skills orientam decisões conforme o contexto e a autorização recebida. Nã
 ## Contribuição
 
 Mantenha as instruções abstratas, curtas e fundamentadas em necessidades reais. Prefira corrigir o princípio existente a acumular regras particulares. Exemplos devem esclarecer decisões, sem impor ferramentas ou processos desnecessários.
+
+Para ativar o lembrete local antes de cada push, execute na raiz do clone:
+
+```sh
+git config core.hooksPath .githooks
+```
+
+Se o clone já tiver hooks configurados, preserve-os e incorpore este aviso ao fluxo existente. O hook exibe um aviso; a revisão do conteúdo continua sendo responsabilidade de quem publica.

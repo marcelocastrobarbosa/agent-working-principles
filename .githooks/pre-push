@@ -1,0 +1,6 @@
+#!/bin/sh
+printf '%s\n' \
+  'ATENÇÃO: este repositório é PÚBLICO.' \
+  'Confira o conteúdo e as mensagens de todos os commits deste push.' \
+  'Publique apenas material genérico, sem dados privados, credenciais ou contexto interno.' >&2
+exit 0
