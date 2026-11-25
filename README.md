@@ -6,6 +6,7 @@ Skills curtas para colaborar com agentes de IA na definição e implementação 
 
 - [Definição e implementação](skills/definition-and-implementation/SKILL.md): ciclos rápidos de definição com a pessoa responsável e execução autônoma quando a direção estiver suficientemente clara e autorizada.
 - [Direção de design de interfaces](skills/interface-design-direction/SKILL.md): coerência entre telas, reutilização de estruturas comuns e estabilidade visual durante o carregamento.
+- [Preferência por Astro + Cloudflare](skills/astro-cloudflare-preference/SKILL.md): orientação opcional para quem prefere essa stack ao iniciar projetos web; preserva escolhas explícitas e stacks existentes.
 
 Este repositório é **público**. Tenha cuidado com o conteúdo e as mensagens dos commits; compartilhe apenas material genérico, sem informações privadas.
 
@@ -17,7 +18,7 @@ Para agentes sem descoberta de skills, forneça o `SKILL.md` relevante como inst
 
 > Use `definition-and-implementation` para orientar a colaboração. Ao criar, alterar ou revisar interfaces, aplique também `interface-design-direction`, junto à identidade e à direção de design do projeto.
 
-As skills orientam decisões conforme o contexto e a autorização recebida. Não exigem fases de gestão, issues ou uma stack específica.
+As skills orientam decisões conforme o contexto e a autorização recebida. Não exigem fases de gestão ou issues; a preferência opcional de stack não impõe tecnologia aos demais fluxos.
 
 ## Contribuição
 
